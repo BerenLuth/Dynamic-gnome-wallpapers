@@ -1,5 +1,8 @@
+
 # Dynamic-gnome-wallpapers
 Day night wallpapers for gnome-shell
+
+![Alt Text](https://github.com/BerenLuth/Dynamic-gnome-wallpapers/blob/master/preview.gif)
 
 ## Prerequisites
 - Gnome shell installation.
