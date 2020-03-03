@@ -3,7 +3,6 @@ Day night wallpapers for gnome-shell
 
 ## Prerequisites
 - Gnome shell installation.
-- subversion aka svn.
 
 ## Wallpaper format
 ### Every wallpaper folder contains :
@@ -11,12 +10,29 @@ Day night wallpapers for gnome-shell
 - XML file containing transition information of the wallpaper.
 - XML file that adds the wallpaper entry to the gnome backgrounds menu in the control center.
 
-## How to use install script
-- Only install script need to be downloaded.
-- install script downloads wallpaper provided correct name of the theme in the argument. 
-- install script takes names of the theme as an argument.
+## How to install the wallpapers
+
+In order to install the wallpapers you just need to open your terminal and run
+
+```bash
+curl -s -L https://raw.githubusercontent.com/BerenLuth/Dynamic-gnome-wallpapers/master/install.sh | bash /dev/stdin [Argument]
+```
+
+[Argument] can be: 
+
+* The name of a wallpaper listed below if you want to install only one of them.
+* removed if you want to install all of them in a single run
+
+If you want to remove a wallpaper or remove all of them, similarly to the install command you can run
+
+```bash
+curl -s -L https://raw.githubusercontent.com/BerenLuth/Dynamic-gnome-wallpapers/master/uninstall.sh | bash /dev/stdin [Argument]
+```
+
+(Note that the final part of the url `install.sh` has been replaced with `uninstall.sh`)
 
 ## Wallpapers
+
 - [Exodus](https://dynamicwallpaper.club/wallpaper/1fwttqzokh6)
 - [Minimal-Mojave](https://dynamicwallpaper.club/wallpaper/b03wojghaul)
 - [MojaveV2](https://dynamicwallpaper.club/wallpaper/cm8q0vwwa1t)
