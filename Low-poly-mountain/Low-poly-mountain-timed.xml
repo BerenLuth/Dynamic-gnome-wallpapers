@@ -1,8 +1,8 @@
 <background>
   <starttime>
-    <year>2011</year>
-    <month>11</month>
-    <day>24</day>
+    <year>2020</year>
+    <month>1</month>
+    <day>1</day>
     <hour>7</hour>
     <minute>00</minute>
     <second>00</second>
@@ -10,55 +10,55 @@
 
 <!-- This animation will start at 7 AM. -->
 
-<!-- We start with sunrise at 7 AM. It will remain up for 4 hour. -->
+<!-- We start with sunrise at 7 AM. It will remain up for 4 hour till 11 AM -->
 <static>
 <duration>14400.0</duration>
-<file>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-morning.png</file>
+<file>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-morning.jpg</file>
 </static>
 
 <!-- Sunrise starts to transition to day at 11 AM. The transition lasts for 2 hours, ending at 1 PM. -->
 <transition type="overlay">
 <duration>7200.0</duration>
-<from>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-morning.png</from>
-<to>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-afternoon.png</to>
+<from>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-morning.jpg</from>
+<to>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-afternoon.jpg</to>
 </transition>
 
-<!-- We start with sunrise at 1 PM. It will remain up for 4 hour. -->
+<!-- Afternoon from 1 PM will remain up for 4 hour till 5 PM -->
 <static>
 <duration>14400.0</duration>
-<file>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-afternoon.png</file>
+<file>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-afternoon.jpg</file>
 </static>
 
-<!-- Sunrise starts to transition to day at 5 PM. The transition lasts for 2 hours, ending at 7 PM. -->
+<!-- Afternoon starts to transition to sunset at 5 PM. The transition lasts for 1 hours, ending at 6 PM. -->
 <transition type="overlay">
+<duration>3600.0</duration>
+<from>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-afternoon.jpg</from>
+<to>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-morning.jpg</to>
+</transition>
+
+<!-- It's 6 PM, we're showing sunset, for 2 hours ending at 8 PM. -->
+<static>
 <duration>7200.0</duration>
-<from>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-afternoon.png</from>
-<to>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-evening.png</to>
-</transition>
-
-<!-- It's 7 PM, we're showing the day image in full force now, for 3 hours ending at 10 PM. -->
-<static>
-<duration>10800.0</duration>
-<file>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-evening.png</file>
+<file>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-morning.jpg</file>
 </static>
 
-<!-- It's 10 PM and it's going to start to get darker. This will transition for 3 hours up until 1 AM. -->
+<!-- It's 8 PM and it's going to start to get darker. This will transition for 1 hours up until 9 PM. -->
 <transition type="overlay">
-<duration>10800.0</duration>
-<from>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-evening.png</from>
-<to>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-night.png</to>
+<duration>3600.0</duration>
+<from>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-morning.jpg</from>
+<to>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-night.jpg</to>
 </transition>
 
-<!-- It's midnight. It'll stay dark for 4 hours up until 5 AM. -->
+<!-- It's 9 PM. It'll stay dark for 8 hours up until 5 AM. -->
 <static>
-<duration>14400.0</duration>
-<file>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-night.png</file>
+<duration>28800.0</duration>
+<file>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-night.jpg</file>
 </static>
 
 <!-- It's 5 AM. We'll start transitioning to sunrise for 2 hours up until 7 AM. -->
 <transition type="overlay">
 <duration>7200.0</duration>
-<from>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-night.png</from>
-<to>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-morning.png</to>
+<from>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-night.jpg</from>
+<to>/usr/share/backgrounds/gnome/Low-poly-mountain-timed/Low-poly-mountain-morning.jpg</to>
 </transition>
 </background>
