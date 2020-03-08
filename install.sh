@@ -18,13 +18,16 @@ else
 fi
 cd Dynamic-gnome-wallpapers
 
+SHOPT=$(shopt -p extglob)   # saves the previous state
+shopt -s extglob    # enagle regex in bash
+
 if [ $# -eq 0 ]; then
     for dir in */; do
         dir=${dir::-1}
         echo "- Installing $dir ..."
         cd $dir
         sudo mkdir -p /usr/share/backgrounds/gnome/$dir-timed
-        sudo cp $dir*.jpeg /usr/share/backgrounds/gnome/$dir-timed
+        sudo cp ?(*.jpeg|*.png|*.jpg) /usr/share/backgrounds/gnome/$dir-timed
         sudo cp $dir-timed.xml /usr/share/backgrounds/gnome
         sudo cp $dir.xml /usr/share/gnome-background-properties
         echo "   Added $dir dynamic wallpaper!"
@@ -34,12 +37,14 @@ else
     echo "Installing $1 ..."
     cd $1
     sudo mkdir -p /usr/share/backgrounds/gnome/$1-timed
-    sudo cp $1*.jpeg /usr/share/backgrounds/gnome/$1-timed
+    sudo cp ?(*.jpeg|*.png|*.jpg) /usr/share/backgrounds/gnome/$1-timed
     sudo cp $1-timed.xml /usr/share/backgrounds/gnome
     sudo cp $1.xml /usr/share/gnome-background-properties
     echo "Added $1 dynamic wallpaper!"
     cd ..
 fi
+
+${SHOPT}    # restore the previous state of bash regex interpretation
 
 # Uncomment the next lines to delete the folder after installation
 # Not strictly necessary since it saves the folter in /tmp
