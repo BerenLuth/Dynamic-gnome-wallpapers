@@ -43,6 +43,7 @@ curl -s -L https://raw.githubusercontent.com/BerenLuth/Dynamic-gnome-wallpapers/
 - [Catalina](https://dynamicwallpaper.club/wallpaper/v5y04cx6k9k)
 - [Low-poly-mountain](https://dynamicwallpaper.club/wallpaper/zvdjfr77knp)
 - [Salesforce](https://dynamicwallpaper.club/wallpaper/ukgey6b4ox)
+- [Village](https://dynamicwallpaper.club/wallpaper/50no7ur8dnk)
 
 ## Credits
 - Exodus : https://dynamicwallpaper.club/u/Juanra
@@ -52,3 +53,4 @@ curl -s -L https://raw.githubusercontent.com/BerenLuth/Dynamic-gnome-wallpapers/
 - Catalina : https://github.com/japamax/gnome-kde-dynamic-wallpaper-catalina
 - Low-poly-mountain : https://dynamicwallpaper.club/wallpaper/zvdjfr77knp
 - Salesforce : https://dynamicwallpaper.club/wallpaper/ukgey6b4ox
+- Village: https://dynamicwallpaper.club/wallpaper/50no7ur8dnk
