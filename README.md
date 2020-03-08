@@ -44,6 +44,7 @@ curl -s -L https://raw.githubusercontent.com/BerenLuth/Dynamic-gnome-wallpapers/
 - [Low-poly-mountain](https://dynamicwallpaper.club/wallpaper/zvdjfr77knp)
 - [Salesforce](https://dynamicwallpaper.club/wallpaper/ukgey6b4ox)
 - [Village](https://dynamicwallpaper.club/wallpaper/50no7ur8dnk)
+- [Minimal-forest](https://dynamicwallpaper.club/wallpaper/ci7xe3twgfv)
 
 ## Credits
 - Exodus : https://dynamicwallpaper.club/u/Juanra
@@ -53,4 +54,5 @@ curl -s -L https://raw.githubusercontent.com/BerenLuth/Dynamic-gnome-wallpapers/
 - Catalina : https://github.com/japamax/gnome-kde-dynamic-wallpaper-catalina
 - Low-poly-mountain : https://dynamicwallpaper.club/wallpaper/zvdjfr77knp
 - Salesforce : https://dynamicwallpaper.club/wallpaper/ukgey6b4ox
-- Village: https://dynamicwallpaper.club/wallpaper/50no7ur8dnk
+- Village : https://dynamicwallpaper.club/wallpaper/50no7ur8dnk
+- Minimal-forest : https://dynamicwallpaper.club/wallpaper/ci7xe3twgfv
