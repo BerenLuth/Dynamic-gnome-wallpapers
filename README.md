@@ -41,6 +41,7 @@ curl -s -L https://raw.githubusercontent.com/BerenLuth/Dynamic-gnome-wallpapers/
 - [MojaveV2](https://dynamicwallpaper.club/wallpaper/cm8q0vwwa1t)
 - [mojave_dynamic](https://imgur.com/a/8XI6jy0/layout/grid)
 - [Catalina](https://dynamicwallpaper.club/wallpaper/v5y04cx6k9k)
+- [Low-poly-mountain](https://dynamicwallpaper.club/wallpaper/zvdjfr77knp)
 
 ## Credits
 - Exodus : https://dynamicwallpaper.club/u/Juanra
@@ -48,3 +49,4 @@ curl -s -L https://raw.githubusercontent.com/BerenLuth/Dynamic-gnome-wallpapers/
 - MojaveV2 : https://dynamicwallpaper.club/u/WeighingDog
 - mojave_dynamic : https://www.reddit.com/r/apple/comments/8oz25c/all_16_full_resolution_macos_mojave_dynamic/
 - Catalina : https://github.com/japamax/gnome-kde-dynamic-wallpaper-catalina
+- Low-poly-mountain : https://dynamicwallpaper.club/wallpaper/zvdjfr77knp
