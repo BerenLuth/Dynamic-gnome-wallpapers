@@ -45,6 +45,7 @@ curl -s -L https://raw.githubusercontent.com/BerenLuth/Dynamic-gnome-wallpapers/
 - [Salesforce](https://dynamicwallpaper.club/wallpaper/ukgey6b4ox)
 - [Village](https://dynamicwallpaper.club/wallpaper/50no7ur8dnk)
 - [Minimal-forest](https://dynamicwallpaper.club/wallpaper/ci7xe3twgfv)
+- [Anime](https://dynamicwallpaper.club/wallpaper/dla35ypafxp)
 
 ## Credits
 - Exodus : https://dynamicwallpaper.club/u/Juanra
@@ -56,3 +57,4 @@ curl -s -L https://raw.githubusercontent.com/BerenLuth/Dynamic-gnome-wallpapers/
 - Salesforce : https://dynamicwallpaper.club/wallpaper/ukgey6b4ox
 - Village : https://dynamicwallpaper.club/wallpaper/50no7ur8dnk
 - Minimal-forest : https://dynamicwallpaper.club/wallpaper/ci7xe3twgfv
+- Anime : https://dynamicwallpaper.club/wallpaper/dla35ypafxp
