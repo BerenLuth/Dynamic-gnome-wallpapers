@@ -13,13 +13,13 @@
 <!-- We start with sunrise at 7 AM. It will remain up for 4 hour till 11 AM -->
 <static>
 <duration>14400.0</duration>
-<file>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-morning.jpg</file>
+<file>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-evening.jpg</file>
 </static>
 
 <!-- Sunrise starts to transition to day at 11 AM. The transition lasts for 2 hours, ending at 1 PM. -->
 <transition type="overlay">
 <duration>7200.0</duration>
-<from>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-morning.jpg</from>
+<from>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-evening.jpg</from>
 <to>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-afternoon.jpg</to>
 </transition>
 
@@ -33,19 +33,19 @@
 <transition type="overlay">
 <duration>3600.0</duration>
 <from>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-afternoon.jpg</from>
-<to>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-morning.jpg</to>
+<to>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-evening.jpg</to>
 </transition>
 
 <!-- It's 6 PM, we're showing sunset, for 2 hours ending at 8 PM. -->
 <static>
 <duration>7200.0</duration>
-<file>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-morning.jpg</file>
+<file>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-evening.jpg</file>
 </static>
 
 <!-- It's 8 PM and it's going to start to get darker. This will transition for 1 hours up until 9 PM. -->
 <transition type="overlay">
 <duration>3600.0</duration>
-<from>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-morning.jpg</from>
+<from>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-evening.jpg</from>
 <to>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-night.jpg</to>
 </transition>
 
@@ -59,6 +59,6 @@
 <transition type="overlay">
 <duration>7200.0</duration>
 <from>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-night.jpg</from>
-<to>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-morning.jpg</to>
+<to>/usr/share/backgrounds/gnome/Minimal-forest-timed/Minimal-forest-evening.jpg</to>
 </transition>
 </background>
