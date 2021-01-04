@@ -58,3 +58,9 @@ curl -s -L https://raw.githubusercontent.com/BerenLuth/Dynamic-gnome-wallpapers/
 - Village : https://dynamicwallpaper.club/wallpaper/50no7ur8dnk
 - Minimal-forest : https://dynamicwallpaper.club/wallpaper/ci7xe3twgfv
 - Anime : https://dynamicwallpaper.club/wallpaper/dla35ypafxp
+
+## Coming soon
+- https://dynamicwallpaper.club/wallpaper/6df38eo4nym
+- https://dynamicwallpaper.club/wallpaper/sa01fzl0n7g
+- https://dynamicwallpaper.club/wallpaper/5an1j6wfq2a
+- https://dynamicwallpaper.club/wallpaper/hovtzpe78tu
