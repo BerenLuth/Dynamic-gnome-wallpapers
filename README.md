@@ -46,7 +46,7 @@ curl -s -L https://raw.githubusercontent.com/BerenLuth/Dynamic-gnome-wallpapers/
 - [Village](https://dynamicwallpaper.club/wallpaper/50no7ur8dnk)
 - [Minimal-forest](https://dynamicwallpaper.club/wallpaper/ci7xe3twgfv)
 - [Anime](https://dynamicwallpaper.club/wallpaper/dla35ypafxp)
-
+- [Naruto-home](https://github.com/BerenLuth/Dynamic-gnome-wallpapers/tree/master/Naruto-home)
 ## Credits
 - Exodus : https://dynamicwallpaper.club/u/Juanra
 - Minimal-Mojave : https://dynamicwallpaper.club/u/octaviotti
